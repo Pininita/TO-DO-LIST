@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.pending-list {
+  width: 400px;
+  border: 2px solid blue;
+  border-radius: 16px;
+  height: auto;
+  min-height: 100px;
+  background-color: #353232;
+}
+
+.completed-list {
+  width: 400px;
+  border: 2px solid blue;
+  border-radius: 16px;
+  height: auto;
+  min-height: 100px;
+  background-color: #353232;
+}
