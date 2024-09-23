@@ -1,13 +1,14 @@
 import React from 'react'
 import './App.css'
 import { List } from './components/list'
+import { Tittle } from './components/tittle'
 
 function App() {
 
   return (
-    <div className=''>
+    <div className='to-fo-list-container font-mono'>
       <header>
-      <h2>TODO LIST</h2>
+        <Tittle/>
       </header>
       <List />
       <footer>

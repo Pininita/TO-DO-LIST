@@ -7,8 +7,9 @@
 
 
 .pending-list {
-  width: 400px;
-  border: 2px solid blue;
+  min-width: 280px;
+  max-width: 500px;
+  border: 2px solid rgb(88, 34, 138);
   border-radius: 16px;
   height: auto;
   min-height: 100px;
@@ -16,10 +17,98 @@
 }
 
 .completed-list {
-  width: 400px;
-  border: 2px solid blue;
+min-width: 280px;
+  max-width: 400px;
+  border: 2px solid rgb(88, 34, 138);
   border-radius: 16px;
   height: auto;
   min-height: 100px;
   background-color: #353232;
+}
+
+/*  main container */
+
+.to-fo-list-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+/* tittle component */
+
+.text1{
+  /* position: absolute; */
+  /* top: 5%; */
+  /* right: 50%; */
+  display: flex;
+}
+
+.text2{
+  /* position: absolute; */
+  /* top: 5%; */
+  /* left: 55%; */
+  display: flex;
+}
+
+.text3{
+  /* position: absolute; */
+  /* top: 5%; */
+  /* left: 70%; */
+  display: flex;
+}
+
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li{
+  list-style: none;
+  font-size: 3em;
+  letter-spacing: 5px;
+  transition: 1s;
+}
+
+li:hover{
+  filter: blur(70px);
+  opacity: 0;
+}
+
+/* input and add button */
+
+.input-task{
+  border-radius: 17px;
+  padding: 1px 7px;
+}
+
+
+.add-button {
+  border-radius: 50%;
+  width: 47px;
+  height: 47px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* list content containers */
+
+.task-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.delete-button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40px; /* Ajusta el ancho */
+  height: 40px; /* Ajusta la altura */
+  border: none; /* Sin borde */
+  border-radius: 50%; /* Bordes redondeados */
+  cursor: pointer; /* Cursor tipo puntero */
+  font-size: 20px; /* Tamaño de la fuente */
 }
