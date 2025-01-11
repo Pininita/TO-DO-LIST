@@ -9,27 +9,56 @@
 </head>
 
 <body>
-    <h1>TO-DO LIST</h1>
-    <div class="note-info">
-        <label for=""><strong>ADD NOTE</strong></label>
-        <input type="text" placeholder="add-task">
-        <button class="button-add">ADD</button>
+   <section class="main-bg">
+    <img class="img-bg" src="./assets/bg-mobile-dark.jpg" alt="image-bg">
+    <div class="todo-wrapper">
+        <div>
+            <h1>TODO</h1>
+        </div>
+        <div class="tasks-container">
+            <input type="checkbox">
+            <input type="text" placeholder="Create a new todo" class="input-task">
+        </div>
+        <section class="todo-list">
+            <div class="tasks-container">
+                <input type="checkbox">
+                <label for="" class="label-task">MAKE A TODO LIST</label>
+                <button>X</button>
+            </div>
+            <hr>
+            <div class="tasks-container">
+                <input type="checkbox">
+                <label for="" class="label-task">MAKE A TODO LIST</label>
+                <button>X</button>
+            </div>
+            <div class="tasks-container">
+                <input type="checkbox">
+                <label for="" class="label-task">MAKE A TODO LIST</label>
+                <button>X</button>
+            </div>
+            <div class="tasks-container">
+                <input type="checkbox">
+                <label for="" class="label-task">MAKE A TODO LIST</label>
+                <button>X</button>
+            </div>
+            <div class="tasks-container">
+                <input type="checkbox">
+                <label for="" class="label-task">MAKE A TODO LIST</label>
+                <button>X</button>
+            </div>
+            <div class="tasks-left">
+                <p>3 items left</p>
+                <p> Clear Completed</p>
+            </div>
+        </section>
+        <div class="tasks-status">
+            <button>ALL</button>
+            <button>Active</button>
+            <button>Completed</button>
+        </div>
     </div>
-    <section class="list">
-        <div>
-            <h3>Pending</h3>
-            <div title="pending-task" id="pending">
-
-            </div>
-        </div>
-        <div>
-            <h3>Done</h3>
-            <div title="task-done" id="done">
-
-            </div>
-        </div>
-    </section>
-
+    <h6>Drag and drop to reorder list</h6>
+   </section>
     <script src="mian.js"></script>
 </body>
 
